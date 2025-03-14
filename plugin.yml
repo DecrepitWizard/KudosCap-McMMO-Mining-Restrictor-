@@ -1,0 +1,10 @@
+name: KudosCap
+version: 1.0-SNAPSHOT
+main: com.decre.kudoscap.KudosCap
+api-version: 1.21
+depend: [mcMMO]
+commands:
+  kudoscap:
+    description: Manage KudosCap settings
+    usage: /<command> [reload|bypass]
+    aliases: [kcap]
